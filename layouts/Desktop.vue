@@ -1,10 +1,10 @@
 <template>
-    <div class="container md:grid-cols-2 mx-auto">
-        <header role="navigation">
+    <div class="grid grid-cols-6 mx-auto">
+        <header class="col-span-1" role="navigation">
+            <Profile />
             <Nav />
         </header>
-        <main>
-            Desktop LAYOUT
+        <main class="col-span-5">
             <slot />
         </main>
     </div>

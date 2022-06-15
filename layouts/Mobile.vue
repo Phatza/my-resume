@@ -1,10 +1,10 @@
 <template>
-    <div class="container grid-cols-1 mx-auto">
+    <div class="container">
         <header role="navigation">
+            <Profile />
             <Nav />
         </header>
         <main>
-            Mobile LAYOUT
             <slot />
         </main>
     </div>
