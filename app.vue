@@ -1,6 +1,6 @@
 <template>
-  <NuxtLayout v-if="windowWidth > 768" name="desktop">
-    <NuxtPage />
+  <NuxtLayout v-if="windowWidth > 767" name="desktop">
+    <NuxtPage/>
   </NuxtLayout>
   <NuxtLayout v-else name="mobile">
     <NuxtPage />
