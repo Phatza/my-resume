@@ -3,6 +3,7 @@
         <header role="navigation">
             <Profile />
             <Nav />
+            <SocialLinks />
         </header>
         <main>
             <slot />
