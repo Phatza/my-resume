@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <div class="px-5">
     <ContentDoc>
       <template #not-found>
         <div id="PageNotFound">
@@ -13,7 +13,7 @@
         </div>
       </template>
     </ContentDoc>
-  </main>
+  </div>
 </template>
 
 <style lang="scss">
