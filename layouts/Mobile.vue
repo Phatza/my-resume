@@ -1,9 +1,8 @@
 <template>
-    <div class="container">
+    <div class="container px-5 flex flex-col justify-center content-center">
         <header role="navigation">
             <Profile />
             <Nav />
-            <SocialLinks />
         </header>
         <main>
             <slot />
