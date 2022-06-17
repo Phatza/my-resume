@@ -1,12 +1,12 @@
 <template>
     <div class="socialLinks">
-        <ul class="flex justify-center px-5">
-            <li v-for="link of socialLinks">
+        <ul class="flex justify-center">
+            <li v-for="link of socialLinks" class="px-1">
                 <a v-if="link.name !== 'email'" :href="link.url" target="_blank">
-                    <nuxt-icon :name="link.name"></nuxt-icon>
+                    <nuxt-icon class="text-2xl" :name="link.name"></nuxt-icon>
                 </a>
                 <a v-else :href="link.url">
-                    <nuxt-icon :name="link.name"></nuxt-icon>
+                    <nuxt-icon class="text-2xl" :name="link.name"></nuxt-icon>
                 </a>
             </li>
         </ul>
