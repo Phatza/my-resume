@@ -1,22 +1,31 @@
 <template>
-  <section>
-    <div class="title text-center">
-      <h1 class="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500 font-uppercase">Brice Ha Phuoc Chi</h1>
-      <h2 class="font-extrabold text-transparent text-lg bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500">Front-end developer</h2>
-    </div>
-    <SocialLinks />
-    <div class="description">
-      <p>
-        hey there 👋
-        <br>
-        I'm Brice, a self-taught Front-end developer based in Marseille - France.
-        <br>
-        <span class="font-extrabold">I'm currently looking for a new challenge as Freelance within a team based on VueJS, NuxtJS.</span> 
-        <br>
-        If you want to know more about me you can check my projects.
-        <br>
-        Feel free to reach me using the links below 👋.
-      </p>
-    </div>
-  </section>
+  <div>
+    <section class="py-2">
+      <h1 class="font-bold text-3xl">About me</h1>
+      <div class="description py-4">
+        <p>
+          Hey there 👋
+          <br />
+          I'm Brice, a self-taught Front-end developer based in Marseille -
+          France.
+        </p>
+        <p>
+          <span class="font-bold"
+            >I'm currently looking for a new challenge as Freelance within a
+            team based on VueJS, NuxtJS.</span
+          >
+        </p>
+        <p>
+          If you want to know more about me you can discover
+          <NuxtLink to="/experiences">my experiences</NuxtLink>
+          .
+        </p>
+        <p>Feel free to reach me using my social links.</p>
+      </div>
+    </section>
+    <section>
+      <h2 class="font-bold text-xl">Discover my skills</h2>
+      <Skills />
+    </section>
+  </div>
 </template>
