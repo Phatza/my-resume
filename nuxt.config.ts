@@ -9,4 +9,7 @@ export default defineNuxtConfig({
     'nuxt-windicss',
     'nuxt-icons'
   ],
+  css: [
+    '@/assets/css/main.scss'
+  ]
 })
