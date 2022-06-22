@@ -69,7 +69,7 @@ const experiences = ref([
     url: "",
     date: "03 Mars 2015 - 24 Juillet 2015",
     description:
-      "Formation de développeur web intensive et innovante prônant la pédagogie “DO IT YOURSELF” et “LEARNING BY DOING”.\
+      "Formation intensive et innovante prônant la pédagogie “DO IT YOURSELF” et “LEARNING BY DOING”.\
       J’ai appris à apprendre afin de pouvoir facilement évoluer avec les technologies mais aussi en communauté. Google est devenu un ami très cher 😅 !",
     icon: "certificate",
   },
