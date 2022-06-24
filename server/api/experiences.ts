@@ -83,7 +83,7 @@ const experiences = [
     url: "",
     date: "Juin 2009 - Août 2010",
     description:
-      "J’étais en charge du service d’aide aux locataires <b>13 habitat</b>. La visite des sites d’habitations ainsi que des agences de gestion du patrimoine ont été pour moi une grande expérience humaine.",
+      "J’étais en charge du <b>service d’aide aux locataires<b> du bailleur social <b>13 habitat</b>. La visite des sites d’habitations ainsi que des agences de gestion du patrimoine ont été pour moi une grande <b>expérience humaine</b>.",
     icon: "job",
   },
 ];
