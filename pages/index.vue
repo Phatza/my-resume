@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <section class="py-2">
+  <div class="md:h-100vh mx-auto">
+    <section class="p-5 my-auto">
       <h1 class="font-bold text-3xl">À propos de moi</h1>
       <div class="description py-4">
         <p>

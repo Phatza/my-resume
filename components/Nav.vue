@@ -1,13 +1,13 @@
 <template>
   <nav class="mb-4">
     <ul
-      class="buttonNavLinks flex justify-center md:flex-col md:justify-center md:content-center"
+      class="buttonNavLinks flex justify-center md:flex-col md:justify-center md:items-center"
     >
       <li>
-        <NuxtLink to="/">About me</NuxtLink>
+        <NuxtLink to="/">À propos</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/experiences">Experiences</NuxtLink>
+        <NuxtLink to="/experiences">Expériences</NuxtLink>
       </li>
     </ul>
   </nav>
