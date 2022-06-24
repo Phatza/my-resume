@@ -69,6 +69,10 @@ const techSkills = ref([
     name: "Strapi",
     score: "70%",
   },
+  {
+    name: "Wordpress",
+    score: "95%",
+  },
 ]);
 const othersSkills = ref([
   {
