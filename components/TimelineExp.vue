@@ -40,10 +40,7 @@
                 Lire plus
               </button>
             </div>
-            <div
-              v-else
-              class="timelineExp_description"
-            >
+            <div v-else class="timelineExp_description">
               <p
                 v-html="item.description"
                 class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
