@@ -1,12 +1,13 @@
 <template>
-  <div class="container px-5 flex flex-col justify-center items-center">
+  <div class="flex flex-col items-center">
     <header>
       <Profile />
       <Nav />
       <SocialLinks />
     </header>
-    <main>
-      <slot />
+    <main class="p-5 bg-slate-200 rounded-20xl">
+      <slot class="bg-white" />
     </main>
+    <ScrollToTop />
   </div>
 </template>
