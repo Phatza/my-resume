@@ -1,11 +1,14 @@
-// Header Style
-header {
-  @apply mt-10 mb-5 w-280px max-w-xs bg-amber-400 shadow-xl shadow-light-900;
+html {
+  scroll-behavior: smooth;
+  // Header Style
+  header {
+    @apply mt-10 h-90 mb-5 w-280px max-w-xs bg-gradient-to-b from-sky-400 via-sky-300 to-sky-200 shadow-lg shadow-light-900;
 
-  // Navigation links
-  .buttonNavLinks {
-    li {
-      @apply p-1 px-2 m-1 bg-light-50 rounded;
+    // Navigation links
+    .buttonNavLinks {
+      li {
+        @apply p-1 px-2 m-1 bg-light-50 rounded;
+      }
     }
   }
 }

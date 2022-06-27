@@ -1,5 +1,5 @@
 <template>
-  <div class="timelineExp_container py-8">
+  <div class="timelineExp_container relative p-8 bg-white shadow-lg">
     <div class="timelineExp_list">
       <ol class="relative border-l border-gray-200 dark:border-gray-700">
         <li

@@ -1,5 +1,5 @@
 <template>
-  <div class="md:h-100vh mx-auto">
+  <div class="md:h-100vh mx-auto bg-white shadow-md shadow-light-900">
     <section class="p-5 my-auto">
       <h1 class="font-bold text-3xl">À propos de moi</h1>
       <div class="description py-4">
@@ -32,7 +32,7 @@
         </p>
       </div>
     </section>
-    <section>
+    <section class="px-5 mb-10">
       <h2 class="font-bold text-xl mb-2">Découvrez mes compétences</h2>
       <Skills />
     </section>
