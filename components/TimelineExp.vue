@@ -3,8 +3,9 @@
     <div class="timelineExp_list">
       <ol class="relative border-l border-gray-200 dark:border-gray-700">
         <li
-          v-if="experiences.length > 0"
+          v-if="experiences && experiences.length > 0"
           v-for="item in experiences"
+          :key="item.id"
           class="mb-10 ml-6"
         >
           <span
