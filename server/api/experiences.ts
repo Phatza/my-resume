@@ -2,7 +2,7 @@ const experiences = [
   {
     title: "Développeur Full-stack",
     company: "Proxilivraison",
-    url: "https:/proxilivraison.fr",
+    url: "https://proxilivraison.fr",
     date: "Octobre 2019 - Mars 2021",
     description:
       "Proxilivraison est une place de marché permettant aux restaurateurs/commerces locaux (<u>basée sur Cavaillon et ses alentours</u>) de bénéficier d'une visibilité augmentée ainsi qu'un service de livraison à domicile.\
