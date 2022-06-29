@@ -64,7 +64,7 @@ const particlesOptions1 = {
 };
 const particlesOptions2 = {
   background: {
-    image: "url('/assets/images/background.jpg')",
+    image: "url('~/assets/images/background.jpg')",
     position: "50% 50%",
     repeat: "no-repeat",
     size: "cover",
