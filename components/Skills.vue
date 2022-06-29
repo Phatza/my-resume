@@ -1,36 +1,36 @@
 <template>
-  <div class="Skillsbars_container">
+  <div class="Skillsbars_container px-5">
     <div class="Skillsbars_tech">
       <h3>Techniques</h3>
       <div class="skillsBars_tech-item py-2" v-for="item in techSkills">
         <div class="flex justify-between">
-          <span class="text-base font-medium text-blue-700 dark:text-white">
+          <span class="text-base font-medium">
             {{ item.name }}
           </span>
-          <span class="text-sm font-medium text-blue-700 dark:text-white"
+          <span class="text-sm font-medium"
             >{{ item.score }}
           </span>
         </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+        <div class="w-full bg-gray-200 rounded-full h-2.5">
           <div
-            class="progress bg-blue-600 h-2.5 rounded-full transition-all transition-1000 delay-500 ease-in-out"
+            class="progress h-2.5 rounded-full"
             :style="'width:' + item.score + ';'"
           ></div>
         </div>
       </div>
+    </div>
+    <div class="skillsBars_others mb-10 md:mb-0">
       <h3>Autres</h3>
       <div class="skillsBars_tech-item py-2" v-for="item in othersSkills">
         <div class="flex justify-between">
-          <span class="text-base font-medium text-blue-700 dark:text-white">
+          <span class="text-base font-medium">
             {{ item.name }}
           </span>
-          <span class="text-sm font-medium text-blue-700 dark:text-white"
-            >{{ item.score }}
-          </span>
+          <span class="text-sm font-medium">{{ item.score }} </span>
         </div>
-        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+        <div class="w-full bg-gray-200 rounded-full h-2.5">
           <div
-            class="progress bg-blue-600 h-2.5 rounded-full transition-all transition-1000 delay-500 ease-in-out"
+            class="progress h-2.5 rounded-full"
             :style="'width:' + item.score + ';'"
           ></div>
         </div>
@@ -62,6 +62,14 @@ const techSkills = ref([
     score: "80%",
   },
   {
+    name: "Ionic",
+    score: "70%",
+  },
+  {
+    name: "Capacitor",
+    score: "60%",
+  },
+  {
     name: "NodeJS",
     score: "60%",
   },
@@ -73,6 +81,10 @@ const techSkills = ref([
     name: "Wordpress",
     score: "95%",
   },
+  {
+    name: "Git",
+    score: "70%",
+  },
 ]);
 const othersSkills = ref([
   {
@@ -82,12 +94,15 @@ const othersSkills = ref([
   {
     name: "Anglais",
     score: "80%",
-  }
+  },
 ]);
 </script>
 
-<style scoped lang="postcss">
+<style scoped>
 h3 {
-  @apply underline text-lg my-2;
+  @apply underline text-lg my-2 font-medium;
+}
+.progress {
+  @apply bg-gradient-to-r from-red-400 via-indigo-400 to-blue-400
 }
 </style>
