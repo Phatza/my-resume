@@ -9,7 +9,7 @@ html {
       li {
         @apply p-1 px-2 m-1 bg-light-50 rounded font-bold;
         .router-link-active {
-          @apply bg-primary-500 text-red-900 underline;
+          @apply text-red-900 underline;
         }
       }
     }
