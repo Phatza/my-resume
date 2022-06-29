@@ -15,8 +15,6 @@ export default defineNuxtConfig({
   ],
   meta: {
     title: 'Curriculum vitae (CV) de Brice HA PHUOC CHI',
-    noscript: [
-      { innerHTML: 'Ce site à besoin de Javascript pour fonctionner.' }
-    ],
+    // TODO: add noscript tag to NUXT3
   }
 })
