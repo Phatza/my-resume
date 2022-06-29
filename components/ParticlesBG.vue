@@ -8,6 +8,7 @@
 
 <script setup>
 import { loadFull } from "tsparticles";
+import bgImg from "~/assets/images/background.jpg";
 
 const particlesOptions1 = {
   fullScreen: {
@@ -64,7 +65,7 @@ const particlesOptions1 = {
 };
 const particlesOptions2 = {
   background: {
-    image: "url('~/assets/images/background.jpg')",
+    image: "url("+ bgImg +")",
     position: "50% 50%",
     repeat: "no-repeat",
     size: "cover",
