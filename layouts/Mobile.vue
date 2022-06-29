@@ -5,7 +5,7 @@
       <Nav />
       <SocialLinks />
     </header>
-    <main class="p-5 bg-slate-200 rounded-20xl">
+    <main class="p-5">
       <slot class="bg-white" />
     </main>
     <ScrollToTop />
