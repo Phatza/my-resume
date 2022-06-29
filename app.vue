@@ -5,6 +5,7 @@
   <NuxtLayout v-else name="mobile">
     <NuxtPage />
   </NuxtLayout>
+  <ParticlesBG />
 </template>
 
 <script setup>
@@ -18,7 +19,7 @@ onMounted(() => {
 });
 </script>
 
-<style lang="scss">
+<style>
 .page-enter-active,
 .page-leave-active {
   opacity: 0;

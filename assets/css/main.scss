@@ -2,12 +2,15 @@ html {
   scroll-behavior: smooth;
   // Header Style
   header {
-    @apply mt-10 h-90 mb-5 w-280px max-w-xs bg-gradient-to-b from-sky-400 via-sky-300 to-sky-200 shadow-lg shadow-light-900;
-
+    @apply mt-10 h-81 md:h-95 mb-5 min-w-270px md:w-300px max-w-xs shadow-lg shadow-dark-200 bg-[url('/img/hero-pattern.svg')];
+    background: url('~/assets/images/background.jpg') center no-repeat;
     // Navigation links
     .buttonNavLinks {
       li {
-        @apply p-1 px-2 m-1 bg-light-50 rounded;
+        @apply p-1 px-2 m-1 bg-light-50 rounded font-bold;
+        .router-link-active {
+          @apply bg-primary-500 text-red-900 underline;
+        }
       }
     }
   }
