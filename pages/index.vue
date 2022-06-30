@@ -19,7 +19,8 @@
         <p>
           <span class="font-bold">
             Je suis actuellement à la recherche d'un nouveau challenge en tant
-            que freelance (rôle de front-end), au sein d'une équipe basé sur
+            que freelance (rôle de front-end), au sein d'une équipe et je suis
+            opérationnel sur des techonologies basées sur l’éco-système
             VueJS/NuxtJS.
             <!-- I'm currently looking for a new challenge as Freelance within a team
             based on VueJS, NuxtJS. -->
@@ -39,6 +40,14 @@
           sociaux.
           <!-- Feel free to reach me using my social links. -->
         </p>
+
+        <a
+          class="font-bold text-white bg-gradient-to-r hover:border-red-400 hover:border-2 hover:rounded-lg hover:bg-white hover:bg-none hover:text-slate-500 from-indigo-300 via-blue-400 to-red-400 inline-block mt-5 py-3 px-4 transition-all"
+          href="/public/cv-30062022.pdf"
+          download
+        >
+          Télécharger mon CV en PDF
+        </a>
       </div>
     </section>
     <section class="pb-5 bg-white">
