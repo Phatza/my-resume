@@ -43,7 +43,7 @@
 
         <a
           class="font-bold text-white bg-gradient-to-r hover:border-red-400 hover:border-2 hover:rounded-lg hover:bg-white hover:bg-none hover:text-slate-500 from-indigo-300 via-blue-400 to-red-400 inline-block mt-5 py-3 px-4 transition-all"
-          href="/public/cv-30062022.pdf"
+          href="/cv-30062022.pdf"
           download
         >
           Télécharger mon CV en PDF
