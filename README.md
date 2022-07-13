@@ -1,6 +1,6 @@
-# Content v2 Minimal Starter
+# My resume using Nuxt 3
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org/) to learn more.
 
 ## Setup
 
@@ -40,3 +40,5 @@ npm run preview
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+
+Feel Free to use it to your own resume.
