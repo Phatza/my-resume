@@ -7,9 +7,6 @@
           <span class="text-base font-medium">
             {{ item.name }}
           </span>
-          <span class="text-sm font-medium"
-            >{{ item.score }}
-          </span>
         </div>
         <div class="w-full bg-gray-200 rounded-full h-2.5">
           <div
@@ -26,7 +23,6 @@
           <span class="text-base font-medium">
             {{ item.name }}
           </span>
-          <span class="text-sm font-medium">{{ item.score }} </span>
         </div>
         <div class="w-full bg-gray-200 rounded-full h-2.5">
           <div
@@ -51,31 +47,31 @@ const techSkills = ref([
   },
   {
     name: "JavaScript",
-    score: "85%",
+    score: "90%",
   },
   {
     name: "Vue",
-    score: "70%",
-  },
-  {
-    name: "Nuxt",
     score: "80%",
   },
   {
+    name: "Nuxt",
+    score: "90%",
+  },
+  {
     name: "Ionic",
-    score: "70%",
+    score: "80%",
   },
   {
     name: "Capacitor",
-    score: "60%",
+    score: "70%",
   },
   {
     name: "NodeJS",
-    score: "60%",
+    score: "70%",
   },
   {
     name: "Strapi",
-    score: "70%",
+    score: "80%",
   },
   {
     name: "Wordpress",
@@ -83,7 +79,7 @@ const techSkills = ref([
   },
   {
     name: "Git",
-    score: "70%",
+    score: "80%",
   },
 ]);
 const othersSkills = ref([
