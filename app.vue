@@ -20,16 +20,13 @@ onMounted(() => {
 </script>
 
 <style>
-.page-enter-active,
-.page-leave-active {
+.page-enter-active {
   opacity: 0;
 }
 .page-enter-to {
-  opacity: 0;
   animation: slide-in 0.5s;
 }
 .page-leave-to {
-  opacity: 0;
   animation: slide-out 0.5s;
 }
 /* Create the animation... */
@@ -46,7 +43,6 @@ onMounted(() => {
 @keyframes slide-out {
   from {
     transform: translateX(0%);
-    
     opacity: 1;
   }
   to {
