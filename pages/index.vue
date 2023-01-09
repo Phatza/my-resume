@@ -42,8 +42,8 @@
         </p>
 
         <a
-          class="font-bold text-white bg-gradient-to-r hover:border-red-400 hover:border-2 hover:rounded-lg hover:bg-white hover:bg-none hover:text-slate-500 from-indigo-300 via-blue-400 to-red-400 inline-block mt-5 py-3 px-4 transition-all"
-          href="/cv-05082022.pdf"
+          class="font-bold text-white bg-gradient-to-r hover:rounded-lg from-indigo-300 via-blue-400 to-red-400 inline-block mt-5 py-3 px-4 hover:px-6 transition-all"
+          href="/CV-BHPC-2023.pdf"
           download
         >
           Télécharger mon CV en PDF
